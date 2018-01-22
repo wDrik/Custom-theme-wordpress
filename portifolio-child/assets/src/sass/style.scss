@@ -1,0 +1,27 @@
+// Variables
+@import "variables";
+
+// Fonts
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,400,500');
+
+/*#region ---> Main <---*/
+*{
+  margin: 0 auto;
+  padding: 0;
+  text-decoration: none;
+  list-style: none;
+  font-family: $roboto;
+
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+/*#endregion ---> Main <---*/
+
+/*#region ---> Header <---*/
+header#header {
+  width: 100%;
+  height: 80px;
+  background: $light-gray;
+}
+/*#endregion ---> Header <---*/
